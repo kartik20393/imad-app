@@ -12,5 +12,6 @@ button.onclick=function(){
         }
         
     };
-    //request.open('GET',);
+    request.open('GET','http://kartik20393.imad.hasura-app.io/counter',true);
+    request.send(null);
 };
