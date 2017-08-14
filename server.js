@@ -13,32 +13,6 @@ var config={
 var app = express();
 app.use(morgan('combined'));
 
-var articles={
- 'article-one':{
-    title:'Article One | Kartik Badarinarayana',
-    heading:'Article One',
-    date:'August 3 2017',
-    content:`<p>
-                                This is article One.
-                                </p>`
-},
-'article-two':{
-    title:'Article Two | Kartik Badarinarayana',
-    heading:'Article Two',
-    date:'August 3 2017',
-    content:`<p>
-                                This is article Two.
-                                </p>`
-},
-'article-three':{
-    title:'Article Three | Kartik Badarinarayana',
-    heading:'Article Three',
-    date:'August 3 2017',
-    content:`<p>
-                                This is article Three.
-                                </p>`
-}
-};
 
 function createTemplate(data)
 {
